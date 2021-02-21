@@ -52,7 +52,7 @@ public class MainController implements Initializable {
 
         if (bulls == 4) {
             var winnerInfo = new Alert(Alert.AlertType.INFORMATION, "You are the WINNER!");
-            winnerInfo.setTitle("Winner");
+            winnerInfo.setTitle("You are the Winner");
             winnerInfo.setHeaderText("Congratulation!");
             winnerInfo.showAndWait();
             resetGame();
